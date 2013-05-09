@@ -4,8 +4,6 @@ import static org.junit.Assert.assertNotNull;
 
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.maistora.spring.demo.AbstractTest;
 import com.maistora.spring.demo.database.entities.UserEntity;
@@ -33,12 +31,4 @@ public class UserEntityRepositoryTest extends AbstractTest {
 		System.out.println(dbUser);
 	}
 	
-	@Test
-	public void testApplicationContext() {
-//		final ApplicationContext context = new ClassPathXmlApplicationContext("META-INF/application-context.xml");
-//		final UserEntity bean = (UserEntity)context.getBean("userEntityBean");
-//		assertNotNull(bean);
-//		
-//		System.out.println(bean);
-	}
 }
