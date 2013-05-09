@@ -56,4 +56,6 @@ Import the project into your workspace:  `File -> Import -> Existing project int
   
 Make sure the m2eclipse plugin is installed and Tomcat 7 is running before continuing.  
  - `right click on the project -> Run As -> Maven Build -> in the "Goals:" field enter "tomcat7:deploy"`  
-If everithing is OK up to here that's cool :)) Now the easiest way to find your project is by going to `your browser -> http://localhost:8080/ -> Select "Manager" -> Enter user/pass (root/toor) and you must see the deployed project (ex. /SpringDemo-1.0.0-SNAPSHOT/)`.
+If everithing is OK up to here that's cool :)) Now the easiest way to find your project is by going to `your browser -> http://localhost:8080/ ->`   
+ `-> Select "Manager" -> Enter user/pass (root/toor) and you must see the deployed project`  
+ `(ex. /SpringDemo-1.0.0-SNAPSHOT/)`.
