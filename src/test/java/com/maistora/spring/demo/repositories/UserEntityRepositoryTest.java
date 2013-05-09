@@ -9,6 +9,7 @@ import com.maistora.spring.demo.AbstractTest;
 import com.maistora.spring.demo.database.entities.UserEntity;
 import com.maistora.spring.demo.database.repositories.UserEntityRepository;
 
+
 public class UserEntityRepositoryTest extends AbstractTest {
 	
 	@Autowired
@@ -29,6 +30,8 @@ public class UserEntityRepositoryTest extends AbstractTest {
 		assertNotNull(dbUser);
 		
 		System.out.println(dbUser);
+		
+		repo.delete(dbUser);
 	}
 	
 }
