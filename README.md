@@ -29,8 +29,8 @@ Project preparation
 ___
 
 Nice to have: Add Tomcat 7 to your Eclipse's servers so you can easily start/stop it. (Skip if you have configured your Tomcat 7 in Eclipse.)  
- - Go to servers tab. If you don't see this tab go to `Window -> Show view -> Servers.  
- - Now in the servers tab Right click -> New -> Server`.  
+ - Go to Servers tab. If you don't see this tab go to `Window -> Show view -> Servers`.  
+ - Now in the `Servers tab Right click -> New -> Server`.  
  - `Choose Tomcat 7 -> Next -> On the next screen Browse to your servers directory`.
  - Hit `Finish`.  
  - Now in the Servers tab double click on the server you've just created. In the `Server Locations` select `Use tomcat installation`.  
@@ -38,17 +38,17 @@ Nice to have: Add Tomcat 7 to your Eclipse's servers so you can easily start/sto
   
 Configure server's user to match the application:  
   
- - Change your `Tomcat_7_home_dir/conf/tomcat-users.xml` with the `docs/tomcat-users.xml` from this project. This will allow you to use the `Manager` tool in your Tomcat 7 web condtrol panel (http://localhost:8080/Manager)with:  
-  `
-  user: root  
-  pass: toor  
-  `
+ - Change your `Tomcat_7_home_dir/conf/tomcat-users.xml` with the `docs/tomcat-users.xml` from this project. This will allow you to use the `Manager` tool in your Tomcat 7 web condtrol panel (`http://localhost:8080/Manager`)with:  
+  
+  `user: root`  
+  `pass: toor`  
+  
  also it will help us deploy on Tomcat with:  
-  `
-  user: tomcat-eclipse  
-  pass: tomcat-eclipse  
-  `
- For some reason these changes are flushed from time to time and if you are not able to login with `root/toor` into the `Manager` tool this means that you have to repeat this step.
+  
+  `user: tomcat-eclipse`  
+  `pass: tomcat-eclipse`  
+  
+ For some reason these changes are flushed from time to time and if you are not able to login with `root/toor` into the `Manager` tool this means that you have to repeat this step.  
   
  - Run your server - Right click the server -> Run.  
   
