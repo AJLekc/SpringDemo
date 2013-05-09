@@ -21,4 +21,5 @@ After you've installed your MySQL 5 DB execute the SQL scripts placed in the 'sc
     - population.sql  
   
 After that your database is ready to be used by the application.
+This may help if you have troubles to setup your DB - http://ma1stora.wordpress.com/2013/05/09/how-to-%D1%81%D1%82%D0%B0%D1%80%D1%82-%D1%81-mysql/
 
