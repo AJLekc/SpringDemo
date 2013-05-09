@@ -28,8 +28,7 @@ ___
 Project preparation
 ___
 
-Skip if you have configured your Tomcat 7 in Eclipse.  
-Nice to have: Add Tomcat 7 to your Eclipse's servers so you can easily start/stop it.  
+Nice to have: Add Tomcat 7 to your Eclipse's servers so you can easily start/stop it. (Skip if you have configured your Tomcat 7 in Eclipse.)  
  - Go to servers tab. If you don't see this tab go to Window -> Show view -> Servers.  
  - Now in the servers tab Right click -> New -> Server.  
  - Choose Tomcat 7 -> Next -> On the next screen Browse to your servers directory.
@@ -53,8 +52,8 @@ Configure server's user to match the application:
   
  - Run your server - Right click the server -> Run.  
   
-Import the project into your workspace:  File -> Import -> Existing project into workspace -> <select archive or project folder>.  
+Import the project into your workspace:  File -> Import -> Existing project into workspace -> `select archive or project folder`.  
   
 Make sure the m2eclipse plugin is installed and Tomcat 7 is running before continuing.  
- - right click on the project -> Run As -> Maven Build -> <in the "Goals:" field enter "tomcat7:deploy">  
+ - right click on the project -> Run As -> Maven Build -> `in the "Goals:" field enter "tomcat7:deploy"`  
 If everithing is OK up to here that's cool :)) Now the easiest way to find your project is by going to your browser -> http://localhost:8080/ -> Select "Manager" -> Enter user/pass (root/toor) and you must see the deployed project (ex. /SpringDemo-1.0.0-SNAPSHOT/).
